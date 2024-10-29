@@ -3,70 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
     <link rel="stylesheet" href="style.css">
     <title>Dashboard</title>
 </head>
 <body>
     <div class="sidebar">
         <div class="logo">
-            <img src="" alt="Logo">
-            <p>Dashboard</p>
+            <img src="icons/lemon.svg" alt="Logo">
+            <h1>Dashboard</h1>
         </div>
-        <ul class="sub-menu1">
-            <li class="menu-item">
-                <img src="" alt="Home">
+        <div class="sub-menu1">
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="Home">
                 <p>Home</p>
-            </li>
-            <li class="menu-item">
-                <img src="" alt="Profile">
+            </div>
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="Profile">
                 <p>Profile</p>
-            </li>
-            <li class="menu-item">
-                <img src="" alt="Messages">
+            </div>
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="Messages">
                 <p>Messages</p>
-            </li>
-            <li class="menu-item">
-                <img src="" alt="History">
+            </div>
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="History">
                 <p>History</p>
-            </li>
-            <li class="menu-item">
-                <img src="" alt="Tasks">
+            </div>
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="Tasks">
                 <p>Tasks</p>
-            </li>
-            <li class="menu-item">
-                <img src="" alt="Communities">
+            </div>
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="Communities">
                 <p>Communities</p>
-            </li>
-        </ul>
-        <ul class="sub-menu2">
-            <li class="menu-item">
-                <img src="" alt="Settings">
+            </div>
+        </div>
+        <div class="sub-menu2">
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="Settings">
                 <p>Settings</p>
-            </li>
-            <li class="menu-item">
-                <img src="" alt="Support">
+            </div>
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="Support">
                 <p>Support</p>
-            </li>
-            <li class="menu-item">
-                <img src="" alt="Privacy">
+            </div>
+            <div class="menu-item">
+                <img src="icons/lemon.svg" alt="Privacy">
                 <p>Privacy</p>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
     <div class="header">
         <div class="search">
-            <img src="" alt="search">
+            <img src="icons/lemon.svg" alt="search">
             <input type="text" name="search" id="search">
         </div>
         <div class="nav">
-            <img src="" alt="notification">
-            <img src="" alt="profile">
+            <img src="icons/lemon.svg" alt="notification">
+            <img src="icons/lemon.svg" alt="profile">
             <p>Morgan Oakley</p>
         </div>
         <div class="greeting">
-            <img src="" alt="profile">
-            <p class="greet">Hi, there</p>
-            <p class="name">Morgan Oakley (@morgan)</p>
+            <img src="icons/lemon.svg" alt="profile">
+            <div>
+                <p class="greet">Hi, there</p>
+                <p class="name">Morgan Oakley (@morgan)</p>
+            </div>
         </div>
         <div class="nav-buttons">
             <button>New</button>
@@ -76,82 +81,96 @@
     </div>
     <div class="main-content">
         <div class="projects">
-            <div class="card">
-                <p>Super Cool Project</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veritatis ex dolores earum ut saepe dolorem labore magni quia dicta. Similique reiciendis asperiores explicabo laudantium quidem natus repellendus omnis vitae.</p>
-                <div class="icons"><img src="" alt="fav"><img src="" alt="view"><img src="" alt="share"></div>
+            <p>Your Projects</p>
+            <div class="project-container">
+                <div class="card">
+                    <p>Super Cool Project</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veritatis ex dolores earum ut saepe dolorem labore
+                        magni quia dicta. Similique reiciendis asperiores explicabo laudantium quidem natus repellendus omnis vitae.</p>
+                    <div class="icons"><img src="icons/lemon.svg" alt="fav"><img src="icons/lemon.svg" alt="view"><img src="icons/lemon.svg" alt="share"></div>
+                </div>
+                <div class="card">
+                    <p>Less Cool Project</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quasi aliquam ducimus dignissimos repellat ipsam
+                        aliquid quae corrupti quam assumenda dolores deleniti reprehenderit, voluptate quod? Earum vel consequuntur culpa
+                        vero!</p>
+                    <div class="icons"><img src="icons/lemon.svg" alt="fav"><img src="icons/lemon.svg" alt="view"><img src="icons/lemon.svg" alt="share"></div>
+                </div>
+                <div class="card">
+                    <p>Impossible App</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores rerum ex odit error laborum cupiditate delectus
+                        sapiente, odio beatae illo ipsam, cum eum sed sint sit, molestiae debitis facilis ratione!</p>
+                    <div class="icons"><img src="icons/lemon.svg" alt="fav"><img src="icons/lemon.svg" alt="view"><img src="icons/lemon.svg" alt="share"></div>
+                </div>
+                <div class="card">
+                    <p>Easy Peasy App</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa nulla ullam vero accusantium, cum praesentium
+                        beatae esse nam corrupti tenetur illum, debitis dignissimos amet, nisi velit quo vitae quis.</p>
+                    <div class="icons"><img src="icons/lemon.svg" alt="fav"><img src="icons/lemon.svg" alt="view"><img src="icons/lemon.svg" alt="share"></div>
+                </div>
+                <div class="card">
+                    <p>Add Blocker</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor vel ipsum voluptate nemo repudiandae! At
+                        consequuntur hic laboriosam enim est. Nihil tempore nobis velit? Fugiat ad vel veniam quod.</p>
+                    <div class="icons"><img src="icons/lemon.svg" alt="fav"><img src="icons/lemon.svg" alt="view"><img src="icons/lemon.svg" alt="share"></div>
+                </div>
+                <div class="card">
+                    <p>Money Maker</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure officia mollitia magnam labore fuga, beatae veritatis
+                        dolorum harum eligendi aliquid recusandae voluptas minima sed quaerat, expedita quae id. Veniam, eligendi!</p>
+                    <div class="icons"><img src="icons/lemon.svg" alt="fav"><img src="icons/lemon.svg" alt="view"><img src="icons/lemon.svg" alt="share"></div>
+                </div>
             </div>
-            <div class="card">
-                <p>Less Cool Project</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quasi aliquam ducimus dignissimos repellat ipsam
-                    aliquid quae corrupti quam assumenda dolores deleniti reprehenderit, voluptate quod? Earum vel consequuntur culpa
-                    vero!</p>
-                <div class="icons"><img src="" alt="fav"><img src="" alt="view"><img src="" alt="share"></div>
-            </div>
-            <div class="card">
-                <p>Impossible App</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores rerum ex odit error laborum cupiditate delectus
-                    sapiente, odio beatae illo ipsam, cum eum sed sint sit, molestiae debitis facilis ratione!</p>
-                <div class="icons"><img src="" alt="fav"><img src="" alt="view"><img src="" alt="share"></div>
-            </div>
-            <div class="card">
-                <p>Easy Peasy App</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa nulla ullam vero accusantium, cum praesentium
-                    beatae esse nam corrupti tenetur illum, debitis dignissimos amet, nisi velit quo vitae quis.</p>
-                <div class="icons"><img src="" alt="fav"><img src="" alt="view"><img src="" alt="share"></div>
-            </div>
-            <div class="card">
-                <p>Add Blocker</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor vel ipsum voluptate nemo repudiandae! At
-                    consequuntur hic laboriosam enim est. Nihil tempore nobis velit? Fugiat ad vel veniam quod.</p>
-                <div class="icons"><img src="" alt="fav"><img src="" alt="view"><img src="" alt="share"></div>
-            </div>
-            <div class="card">
-                <p>Money Maker</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure officia mollitia magnam labore fuga, beatae veritatis
-                    dolorum harum eligendi aliquid recusandae voluptas minima sed quaerat, expedita quae id. Veniam, eligendi!</p>
-                <div class="icons"><img src="" alt="fav"><img src="" alt="view"><img src="" alt="share"></div>
-            </div>
-
         </div>
         <div class="annoucements">
+            <p>Announcements</p>
             <div class="announce-card">
                 <p>Site Maintenance</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, ut? Nesciunt laborum consequatur modi dolorum,
-                    blanditiis asperiores sit inventore expedita odit doloribus totam libero qui provident voluptates, illo, eum minima.
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, ut? Nesciunt laborum consequatur modi dolorum...
                 </p>
             </div>
             <div class="announce-card">
                 <p>Community Share Day</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil suscipit, consectetur iusto obcaecati tempora,
-                    accusantium officia animi laudantium molestias quisquam tenetur nam vel dolor hic a. Deserunt illum iure maxime?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil suscipit, consectetur iusto obcaecati tempora...
+                </p>
             </div>
             <div class="announce-card">
                 <p>Updated Privacy Policy</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quos non facilis nam, voluptates aliquid doloribus
-                    dolor ipsum sequi animi quis. Incidunt delectus facilis totam repellendus quos. Veritatis, aperiam excepturi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quos non facilis nam, voluptates aliquid doloribus...
+                </p>
             </div>
         </div>
         <div class="trending">
-            <div class="trend-card">
-                <img src="" alt="icon">
-                <p>@tegan</p>
-                <p>World Peace Builder</p>
-            </div>
-            <div class="trend-card">
-                <img src="" alt="icon">
-                <p>@morgan</p>
-                <p>Super Cool Project</p>
-            </div>
-            <div class="trend-card">
-                <img src="" alt="icon">
-                <p>@kendall</p>
-                <p>Life Changing App</p>
-            </div>
-            <div class="trend-card">
-                <img src="" alt="icon">
-                <p>@alex</p>
-                <p>No Traffic Maker</p>
+            <p>Trending</p>
+            <div class="trend-container">
+                <div class="trend-card">
+                    <img src="icons/lemon.svg" alt="icon">
+                    <div>
+                        <p>@tegan</p>
+                        <p>World Peace Builder</p>
+                    </div>
+                </div>
+                <div class="trend-card">
+                    <img src="icons/lemon.svg" alt="icon">
+                    <div>
+                        <p>@morgan</p>
+                        <p>Super Cool Project</p>
+                    </div>
+                </div>
+                <div class="trend-card">
+                    <img src="icons/lemon.svg" alt="icon">
+                    <div>
+                        <p>@kendall</p>
+                        <p>Life Changing App</p>
+                    </div>
+                </div>
+                <div class="trend-card">
+                    <img src="icons/lemon.svg" alt="icon">
+                    <div>
+                        <p>@alex</p>
+                        <p>No Traffic Maker</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
